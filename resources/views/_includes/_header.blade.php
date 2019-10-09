@@ -5,22 +5,22 @@
             <div class="col-lg-4 text-left text-sm-center">
                 <ul class="social-list">
                     <li>
-                        <a href="index.html#">
+                        <a href="javascript:;">
                             <i class="soc__instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#">
+                        <a href="javascript:;">
                             <i class="soc__google"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#">
+                        <a href="javascript:;">
                             <i class="soc__twitter"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#">
+                        <a href="javascript:;">
                             <i class="soc__facebook"></i>
                         </a>
                     </li>
@@ -29,15 +29,15 @@
             <div class="col-lg-4 text-center">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="images/logo.png" alt="">
+                        <img src="{{asset('images/sterich_logo.jpg')}}" alt="">
                     </a>
                 </div>
             </div>
             <div class="col-lg-4 text-right text-sm-center">
                 <address class="contact-block text-right text-sm-center">
-                    <p class="contact-block__address">4 Main Street, SA 007200</p>
+                    <p class="contact-block__address">Building, Street, Kitengela, Kajiado</p>
                     <p class="contact-block__phone">
-                        <span>800</span> 516 3290</p>
+                        <span>254</span> 724 262 969</p>
                     <p class="contact-block__work-time">9:00 A.M. - 5:00 P.M.</p>
                 </address>
             </div>
@@ -58,17 +58,17 @@
                     <!-- Main navigation start -->
                     <nav class="mainmenu_wrapper">
                         <ul class="mainmenu nav sf-menu text-center">
-                            <li class="active">
+                            <li class="{{$page == 'index' ? 'active': ''}}">
                                 <a href="{{url('/')}}">Home</a>
                             </li>
 
                             <!-- Shop -->
-                            <li>
+                            <li class="{{$page == 'products' ? 'active': ''}}">
                                 <a href="{{url('products')}}">Our Products</a>
                             </li>
 
                             <!-- Contact -->
-                            <li>
+                            <li class="{{$page == 'contact-us' ? 'active': ''}}">
                                 <a href="{{url('contact-us')}}" data-target="#contact">Contact Us</a>
                             </li>
                         </ul>
@@ -76,7 +76,7 @@
                     <!-- eof main nav -->
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 text-right text-sm-center">
-                    <div class="shopping-cart">
+                    {{--<div class="shopping-cart">
                         <a class="shopping-cart__content header-button" id="cart" data-target="#" href="http://webdesign-finder.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="shopping-cart__info">(2)</span>
                             <i class="fa fa-shopping-basket" aria-hidden="true"></i>
@@ -144,7 +144,7 @@
                     </div>
                     <a href="index.html#" class="search_modal_button serach-button">
                         <i class="rt-icon2-search4"></i>
-                    </a>
+                    </a>--}}
                 </div>
             </div>
         </div>

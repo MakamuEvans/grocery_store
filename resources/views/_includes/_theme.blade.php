@@ -5,7 +5,7 @@
 <html lang="en" class="no-js">
 
 <head>
-    <title>Organic</title>
+    <title>Sterich Limited</title>
     <meta charset="utf-8">
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,21 +27,20 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="http://webdesign-finder.com/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Style -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css" id="color-switcher-link">
-    <link rel="stylesheet" href="css/animations.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <script src="js/modernizr-2.6.2.min.js"></script>
+    <link rel="stylesheet" href="{{'css/bootstrap.min.css'}}">
+    <link rel="stylesheet" href="{{'css/main.css'}}" id="color-switcher-link">
+    <link rel="stylesheet" href="{{asset('css/animations.css')}}">
+    <link rel="stylesheet" href="{{asset('css/fonts.css')}}">
+    <script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <script src="js/respond.min.js"></script>
+    <script src="{{asset('js/html5shiv.min.js')}}"></script>
+    <script src="{{asset('js/respond.min.js')}}"></script>
     <![endif]-->
     <style>
         img {
@@ -90,8 +89,8 @@
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
-<script src="js/plugins.js"></script>
+<script src="{{asset('js/main.js')}}"></script>
+<script src="{{asset('js/plugins.js')}}"></script>
 
 <!-- Switcher -->
 <!--<script src="js/switcher.js"></script>-->

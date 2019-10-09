@@ -12,11 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $page = 'index';
+    return view('welcome', compact('page'));
 });
 Route::get('/contact-us', function () {
-    return view('contact-us');
+    $page = 'contact-us';
+    return view('contact-us', compact('page'));
 });
 Route::get('/products', function () {
-    return view('products');
+    $page = 'products';
+    return view('products', compact('page'));
 });

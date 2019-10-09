@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3 class="breadcrumbs__title text-center">Shop page 1</h3>
+                    <h3 class="breadcrumbs__title text-center">Our Products</h3>
                 </div>
             </div>
             <div class="row">
@@ -14,7 +14,7 @@
                         <li>
                             <a href="http://webdesign-finder.com/">Home</a>
                         </li>
-                        <li class="active">Shop page 1</li>
+                        <li class="active">Products</li>
                     </ul>
                 </div>
             </div>
@@ -51,10 +51,10 @@
                                     <div class="shop-item__block">
                                         <span class="shop-item__price">
                                             <span>
-                                                <span class="amount">$75.00</span>
+                                                <span class="amount">KES: 75.00</span>
                                             </span>
                                         </span>
-                                        <button type="button" class="button-g_t4">Add To Cart</button>
+                                        {{--<button type="button" class="button-g_t4"></button>--}}
                                     </div>
                                 </div>
                             </div>
@@ -83,10 +83,12 @@
                                     <div class="shop-item__block">
                                         <span class="shop-item__price">
                                             <span>
-                                                <span class="amount">$45.00</span>
+                                                <span class="amount">KES: 45.00</span>
                                             </span>
                                         </span>
+{{--
                                         <button type="button" class="button-g_t4">Add To Cart</button>
+--}}
                                     </div>
                                 </div>
                             </div>
@@ -115,10 +117,12 @@
                                     <div class="shop-item__block">
                                         <span class="shop-item__price">
                                             <span>
-                                                <span class="amount">$17.00</span>
+                                                <span class="amount">KES: 17.00</span>
                                             </span>
                                         </span>
+{{--
                                         <button type="button" class="button-g_t4">Add To Cart</button>
+--}}
                                     </div>
                                 </div>
                             </div>
@@ -147,10 +151,12 @@
                                     <div class="shop-item__block">
                                         <span class="shop-item__price">
                                             <span>
-                                                <span class="amount">$29.00</span>
+                                                <span class="amount">KES: 29.00</span>
                                             </span>
                                         </span>
+{{--
                                         <button type="button" class="button-g_t4">Add To Cart</button>
+--}}
                                     </div>
                                 </div>
                             </div>
@@ -179,10 +185,12 @@
                                     <div class="shop-item__block">
                                         <span class="shop-item__price">
                                             <span>
-                                                <span class="amount">$31.00</span>
+                                                <span class="amount">KES: 31.00</span>
                                             </span>
                                         </span>
+{{--
                                         <button type="button" class="button-g_t4">Add To Cart</button>
+--}}
                                     </div>
                                 </div>
                             </div>
@@ -211,10 +219,12 @@
                                     <div class="shop-item__block">
                                         <span class="shop-item__price">
                                             <span>
-                                                <span class="amount">$18.46</span>
+                                                <span class="amount">KES: 18.46</span>
                                             </span>
                                         </span>
+{{--
                                         <button type="button" class="button-g_t4">Add To Cart</button>
+--}}
                                     </div>
                                 </div>
                             </div>
@@ -243,16 +253,18 @@
                                     <div class="shop-item__block">
                                         <span class="shop-item__price">
                                             <span>
-                                                <span class="amount">$39.12</span>
+                                                <span class="amount">KES: 39.12</span>
                                             </span>
                                         </span>
+{{--
                                         <button type="button" class="button-g_t4">Add To Cart</button>
+--}}
                                     </div>
                                 </div>
                             </div>
                         </li>
                     </ul>
-                    <div class="text-center topmargin_20">
+                    {{--<div class="text-center topmargin_20">
                         <ul class="pagination">
                             <li class="active">
                                 <a href="shop-type-1.html#">1</a>
@@ -270,7 +282,7 @@
                                 <a href="shop-type-1.html#">7</a>
                             </li>
                         </ul>
-                    </div>
+                    </div>--}}
                 </div>
             </div>
         </div>
@@ -281,12 +293,12 @@
                 <div class="col-lg-6 col-md-6">
                     <p class="recom__text">Personal recomendation of General Medical Association</p>
                     <figure class="recom__img-01">
-                        <img src="images/recom_01.png" alt="">
+                        <img src="{{asset('images/recom_01.png')}}" alt="">
                     </figure>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <figure class="recom__img-02">
-                        <img src="images/recom_02.png" alt="">
+                        <img src="{{asset('images/recom_02.png')}}" alt="">
                     </figure>
                 </div>
             </div>

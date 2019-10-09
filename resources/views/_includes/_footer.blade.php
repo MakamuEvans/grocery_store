@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="widget widget_text">
-                    <h3 class="widget-title">Text Widget</h3>
+                    <h3 class="widget-title">Sterich Limited</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, dolorem, eaque fugit odit obcaecati temporibus est dolor consequatur totam nam facilis soluta maiores eius iste veritatis. Ratione quidem exercitationem quisquam.</p>
                     <ul class="payment-list">
                         <li>
@@ -36,64 +36,33 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="widget widget_latest_blog">
-                    <h3 class="widget-title">Latest Blog</h3>
-                    <ul>
-                        <li>
-                            <a href="index.html#">Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam, dolorem, eaque fugit odit obcaecati ...</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam, dolorem, eaque fugit odit obcaecati ...</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Lorem ipsum dolor sit amet, consectetur adipisicing elit Ipsam, dolorem, eaque fugit odit obcaecati ...</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-12">
                 <div class="widget widget_menu">
                     <h3 class="widget-title">Navigation</h3>
                     <ul>
                         <li>
-                            <a href="index.html#">Home</a>
+                            <a href="{{url('/')}}">Home</a>
                         </li>
                         <li>
-                            <a href="index.html#">Products</a>
+                            <a href="{{url('products')}}">Products</a>
                         </li>
                         <li>
-                            <a href="index.html#">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Pages</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Contacts</a>
+                            <a href="{{url('contact-us')}}">Contact Us</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-12">
+            <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="widget widget_text">
                     <h3 class="widget-title">Useful Links</h3>
                     <ul>
                         <li>
-                            <a href="index.html#">My account</a>
+                            <a href="javascript:;">Terms and Conditions</a>
                         </li>
                         <li>
-                            <a href="index.html#">My wishlist</a>
+                            <a href="javascript:;">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="index.html#">Personal information</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Shipping</a>
-                        </li>
-                        <li>
-                            <a href="index.html#">Return policy</a>
+                            <a href="javascript:;">Return policy</a>
                         </li>
                     </ul>
                 </div>
@@ -107,7 +76,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <p>
-                    <a href="index.html#">Copyright 2016</a> - MW Templates. All rights reserved</p>
+                    <a href="javascript:;">Copyright 2019</a> - Sterich Limited</p>
             </div>
         </div>
     </div>
