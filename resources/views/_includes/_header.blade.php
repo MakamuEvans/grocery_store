@@ -37,7 +37,7 @@
                 <address class="contact-block text-right text-sm-center">
                     <p class="contact-block__address">Building, Street, Kitengela, Kajiado</p>
                     <p class="contact-block__phone">
-                        <span>254</span> 724 262 969</p>
+                        <span>+254</span> 724 262 969</p>
                     <p class="contact-block__work-time">9:00 A.M. - 5:00 P.M.</p>
                 </address>
             </div>

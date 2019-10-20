@@ -5,34 +5,9 @@
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <div class="widget widget_text">
                     <h3 class="widget-title">Sterich Limited</h3>
+{{--
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, dolorem, eaque fugit odit obcaecati temporibus est dolor consequatur totam nam facilis soluta maiores eius iste veritatis. Ratione quidem exercitationem quisquam.</p>
-                    <ul class="payment-list">
-                        <li>
-                            <a href="index.html#">
-                                <i class="fa fa-cc-visa" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index.html#">
-                                <i class="fa fa-cc-discover" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index.html#">
-                                <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index.html#">
-                                <i class="fa fa-cc-amex" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index.html#">
-                                <i class="fa fa-cc-paypal" aria-hidden="true"></i>
-                            </a>
-                        </li>
-                    </ul>
+--}}
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">

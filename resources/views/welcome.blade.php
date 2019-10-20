@@ -5,8 +5,8 @@
             <ul class="slides">
                 <li>
                     <figure class="flexslider__img">
-                        <a href="index.html#">
-                            <img src="images/slider/img_slider-01.jpg" alt="">
+                        <a href="{{url('/')}}">
+                            <img src="{{asset('images/slider/img_slider-01.jpg')}}" alt="">
                         </a>
                     </figure>
                     <div class="flexslider__content ">
@@ -16,7 +16,7 @@
                                     <div class="content-table__wrapp">
                                         <h3 class="flexslider__title">We Sell Fresh Food</h3>
                                         <p class="flexslider__sub-title">Fresh Fruits, Vegetables, Cereals and many more</p>
-                                        <button type="button" class="button-o_t1">Browse our Inventory</button>
+                                        <a type="button" href="{{url('products')}}" class="button-o_t1">Browse our Inventory</a>
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +37,9 @@
                             </figure>
                             <div class="banners-item-1__content">
                                 <h3 class="banners-item-1__title">Fresh Farm Fruits</h3>
+{{--
                                 <p class="banners-item-1__text">A small description goes here</p>
+--}}
                                 <a href="{{url('products')}}" class="banners-item-1__button">Browse Inventory</a>
                             </div>
                         </div>
@@ -47,7 +49,9 @@
                             </figure>
                             <div class="banners-item-1__content">
                                 <h3 class="banners-item-1__title">Organic and Local Vegetables</h3>
+{{--
                                 <p class="banners-item-1__text">A small description goes here</p>
+--}}
                                 <a href="{{url('products')}}" class="banners-item-1__button">Browse Inventory</a>
                             </div>
                         </div>
@@ -57,7 +61,9 @@
                             </figure>
                             <div class="banners-item-1__content">
                                 <h3 class="banners-item-1__title">Cereals and Dairy Products</h3>
+{{--
                                 <p class="banners-item-1__text">A small description goes here.</p>
+--}}
                                 <a href="{{url('products')}}" class="banners-item-1__button">Browse Inventory</a>
                             </div>
                         </div>
@@ -67,7 +73,9 @@
                             </figure>
                             <div class="banners-item-1__content">
                                 <h3 class="banners-item-1__title">Fresh Meat and Chicken Products</h3>
+{{--
                                 <p class="banners-item-1__text">A small description goes here.</p>
+--}}
                                 <a href="{{url('products')}}" class="banners-item-1__button">Browse Inventory</a>
                             </div>
                         </div>
@@ -81,7 +89,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3 class="title_t-1 title_t-1--position1 text-center">We Sell Best Food Products</h3>
+{{--
                     <p class="sub-title_t-4 text-center">A small description of what steric entails goes here....3 to 4 lines of text is good.</p>
+--}}
                 </div>
             </div>
         </div>
@@ -93,21 +103,21 @@
                     <ul class="block__info-list">
                         <li>
                             <h3 class="block__info-title-1 block__t-1">Fresh</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                            <p>All Our Producst are directly sourced from the farm/manufacture point. </p>
                         </li>
                         <li>
                             <h3 class="block__info-title-1 block__t-2">Healthy</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                            <p>We do not use any preservatives/chemicals on all our products</p>
                         </li>
                         <li>
                             <h3 class="block__info-title-1 block__t-3">Eco</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                            <p>We are Affordable</p>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-6 col-md-6 text-center">
                     <div class="block-recom">
-                        <p class="block-recom__text">Personal recomendation of General Medical Association</p>
+                        <p class="block-recom__text">Sterich Limited</p>
                         <figure class="block-recom__img_1">
                             <img src="images/img_1.png" alt="">
                         </figure>
@@ -120,15 +130,15 @@
                     <ul class="block__info-list text-right text-md-center title_t-1--position4">
                         <li>
                             <h3 class="block__info-title-2 block__t-4">Tasty</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                            <p>Fresh, Organic and best handle means Great taste </p>
                         </li>
                         <li>
                             <h3 class="block__info-title-2 block__t-5">Yammy</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                            <p>Fresh, Organic and best hadnle means Great taste </p>
                         </li>
                         <li>
                             <h3 class="block__info-title-2 block__t-6">Premium</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
+                            <p>With Our Professionalism, we ensure you get premium quality </p>
                         </li>
                     </ul>
                 </div>
@@ -141,8 +151,8 @@
                 <div class="col-lg-12 text-center">
                     <div class="home-parallax-1__wrapp">
                         <h3 class="home-parallax-1__title">Looking for Fresh Food Products?</h3>
-                        <p class="home-parallax-1__sub-title">A small description goes here</p>
-                        <button type="button" class="button-o_t1">Browse our Inventory</button>
+                        <p class="home-parallax-1__sub-title">Click below to find out.</p>
+                        <a href="{{url('/products')}}" type="button" class="button-o_t1">Browse our Inventory</a>
                     </div>
                 </div>
             </div>
@@ -191,12 +201,12 @@
             </form>
         </div>
     </div>
-    <div class="ls section_padding_top_110 section_padding_bottom_20">
+    {{--<div class="ls section_padding_top_110 section_padding_bottom_20">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h3 class="title_t-1 text-center">Our Suppliers</h3>
-                    {{--<p class="sub-title_t-1 text-center">We present our achievements and and awards</p>--}}
+                    --}}{{--<p class="sub-title_t-1 text-center">We present our achievements and and awards</p>--}}{{--
                 </div>
             </div>
         </div>
@@ -234,7 +244,7 @@
 
             </div>
         </div>
-    </div>
+    </div>--}}
     <div class="background-t_1">
         <div class="container">
             <div class="row">
